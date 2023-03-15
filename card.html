@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<meta charset="UTF-8">
+<title>Code Mo - Responsive Blog Card Slider </title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<style>
+
+/* .marquee {
+  position: relative;
+  width: 100vw;
+  max-width: 100%;
+  height: 200px;
+  overflow-x: hidden;
+}
+
+.track {
+  position: absolute;
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee 3s linear infinite;
+}
+
+@keyframes marquee {
+  from { transform: translateX(-50%); }
+  to { transform: translateX(0%); }
+} */
+
+</style>
+<body>
+    
+    <!-- <div class="container">
+    <div class="marquee">
+        <div class="track">
+          <div class="content">&nbsp;
+            <img src="comlogo/altimetrik.png" alt="">
+            <img src="comlogo/altmet.png" alt="">
+            <img src="comlogo/american.png" alt="">
+            <img src="comlogo/aspire.png" alt="">
+            <img src="comlogo/atos.png" alt="">
+            <img src="comlogo/altimetrik.png" alt="">
+            <img src="comlogo/altmet.png" alt="">
+            <img src="comlogo/american.png" alt="">
+            <img src="comlogo/aspire.png" alt="">
+            <img src="comlogo/atos.png" alt="">
+            <img src="comlogo/altimetrik.png" alt="">
+            <img src="comlogo/altmet.png" alt="">
+            <img src="comlogo/american.png" alt="">
+            <img src="comlogo/aspire.png" alt="">
+            <img src="comlogo/atos.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+    <div class="marquee">
+        <div class="track">
+          <div class="content">&nbsp;
+            <img src="comlogo/altimetrik.png" alt="">
+            <img src="comlogo/altmet.png" alt="">
+            <img src="comlogo/american.png" alt="">
+            <img src="comlogo/aspire.png" alt="">
+            <img src="comlogo/atos.png" alt="">
+            <img src="comlogo/altimetrik.png" alt="">
+            <img src="comlogo/altmet.png" alt="">
+            <img src="comlogo/american.png" alt="">
+            <img src="comlogo/aspire.png" alt="">
+            <img src="comlogo/atos.png" alt="">
+            <img src="comlogo/altimetrik.png" alt="">
+            <img src="comlogo/altmet.png" alt="">
+            <img src="comlogo/american.png" alt="">
+            <img src="comlogo/aspire.png" alt="">
+            <img src="comlogo/atos.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div> -->
+  <!-- <div class="blog-slider">
+    <div class="blog-slider__wrp swiper-wrapper">
+      <div class="blog-slider__item swiper-slide">
+        <div class="blog-slider__img">
+          <img src="sports1.jpg" alt="">
+        </div>
+        <div class="blog-slider__content">
+          <span class="blog-slider__code">08 February 2022</span>
+          <div class="blog-slider__title">Lorem Ipsum Dolor</div>
+          <div class="blog-slider__text">Lorem ipsum, dolor sit amet consectetur 
+            adipisicing elit. Eos esse vero cumque pariatur Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae explicabo earum soluta sequi temporibus, quidem rem cupiditate itaque quisquam harum iure culpa quam delectus, in molestias beatae, reiciendis quasi laborum.</div>
+            <a href="#" class="blog-slider__button">READ MORE</a>
+        </div>
+      </div>
+
+      <div class="blog-slider__item swiper-slide">
+        <div class="blog-slider__img">
+          <img src="sports2.jpg" alt="">
+        </div>
+        <div class="blog-slider__content">
+          <span class="blog-slider__code">08 February 2022</span>
+          <div class="blog-slider__title">Lorem Ipsum Dolor</div>
+          <div class="blog-slider__text">Lorem ipsum, dolor sit amet consectetur 
+            adipisicing elit. Eos esse vero cumque pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus pariatur beatae consequatur, in nemo ullam sint laudantium, veniam nisi optio amet atque quas neque obcaecati minus voluptas officia eveniet aliquid!</div>
+            <a href="#" class="blog-slider__button">READ MORE</a>
+        </div>
+      </div>
+
+      <div class="blog-slider__item swiper-slide">
+        <div class="blog-slider__img">
+          <img src="sports2.jpg" alt="">
+        </div>
+        <div class="blog-slider__content">
+          <span class="blog-slider__code">08 February 2022</span>
+          <div class="blog-slider__title">Lorem Ipsum Dolor</div>
+          <div class="blog-slider__text">Lorem ipsum, dolor sit amet consectetur 
+            adipisicing elit. Eos esse vero cumque pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus pariatur beatae consequatur, in nemo ullam sint laudantium, veniam nisi optio amet atque quas neque obcaecati minus voluptas officia eveniet aliquid!</div>
+            <a href="#" class="blog-slider__button">READ MORE</a>
+        </div>
+      </div>
+      <div class="blog-slider__item swiper-slide">
+        <div class="blog-slider__img">
+          <img src="slideimg1.jpg" alt="">
+        </div>
+        <div class="blog-slider__content">
+          <span class="blog-slider__code">08 February 2022</span>
+          <div class="blog-slider__title">Lorem Ipsum Dolor</div>
+          <div class="blog-slider__text">Lorem ipsum, dolor sit amet consectetur 
+            adipisicing elit. Eos esse vero cumque pariatur Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea id repudiandae ullam ex amet facere, officiis, quis incidunt sint magni adipisci? Consequuntur ab id adipisci illum minus. Tenetur, veniam optio.</div>
+            <a href="#" class="blog-slider__button">READ MORE</a>
+        </div>
+      </div>
+    </div> 
+    <div class="blog-slider__pagination"></div>
+  </div>
+<br>
+   -->
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
